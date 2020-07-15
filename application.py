@@ -1,5 +1,6 @@
 from flask import Flask
 import pymongo
+import dnspython
 
 app = Flask(__name__)
 
@@ -9,5 +10,5 @@ db = client.test
 
 @app.route("/")
 def hello():
-    return "Hello World!"
+    return "Testing Mongo Connection"
    
