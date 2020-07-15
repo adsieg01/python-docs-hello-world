@@ -10,5 +10,5 @@ db = client.sample_airbnb
 
 @app.route("/")
 def hello():
-    return "Testing Mongo Connection"
+    return "Testing Mongo Connection to sample database"
    
