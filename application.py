@@ -1,6 +1,6 @@
 from flask import Flask
 import pymongo
-import dnspython
+import dns
 
 app = Flask(__name__)
 
