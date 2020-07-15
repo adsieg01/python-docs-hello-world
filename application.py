@@ -9,8 +9,7 @@ client = pymongo.MongoClient(
 db = client.sample_airbnb
 mycol = db["collection-test-creation"]
 
-
 @app.route("/")
 def hello():
-    return db.list_collection_names()
+    return "Testing Mongo Connection to sample database"
    
