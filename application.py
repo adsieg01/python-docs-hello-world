@@ -17,5 +17,5 @@ x = mycol.insert_one(tester)
 
 @app.route("/")
 def hello():
-    return "npe-connection-via-hello-world-both-ips"
+    return "This is a test, if you can read this app service is up"
    
