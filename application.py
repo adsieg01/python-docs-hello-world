@@ -10,7 +10,7 @@ db = client["sample_airbnb"]
 mycol = db["npe-connection-via-hello-world-both-ips"]
 
 #a document
-tester = { "name": "Saranya", "address": "Kochi" }
+tester = { "name": "Test", "address": "Document" }
 
 #insert a document to the collection
 x = mycol.insert_one(tester)
